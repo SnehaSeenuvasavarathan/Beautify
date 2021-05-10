@@ -1,0 +1,173 @@
+body{
+  text-align: center;
+}
+#title{
+  background-color: #ffaaa7;
+  font-family: 'Montserrat';
+}
+
+/* Navbar */
+
+.container-fluid{
+  padding: 3% 15% 5%;
+}
+.navbar{
+  padding-left:0;
+  background-color:  #ffaaa7;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+.container{
+  padding: 3% 3% 2%;
+}
+/* Title */
+#title .container-fluid{
+  margin-top: 9%;
+}
+.title-text{
+  text-align:left;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #f21170;
+}
+.title-image{
+  width:60%;
+}
+.title-content{
+  padding-top: 5%;
+}
+
+
+/* Services */
+
+#services{
+  padding: 4% 0 0;
+  background-color: #ffd3b4;
+}
+.service-title,.about-title,.contact-text, .about-subtitle{
+  color:  #f21170;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+
+}
+.service-image{
+  width: 100px;
+  transition: transform .2s; /* Animation */
+}
+.service-image:hover{
+  transform: scale(1.5);
+}
+.service-text{
+  padding: 7% 0;
+}
+.service-title-text{
+  font-size: 1.2rem;
+}
+.service-container{
+  padding: 5% 0;
+}
+
+/* About */
+#about{
+  background-color: #ffaaa7;
+}
+.about-image{
+  width:90%;
+}
+
+.about-row{
+  padding: 5% 0;
+}
+
+.about-title{
+  padding: 7% 0 5%;
+}
+.about-text{
+  font-size:1.2rem;
+  line-height: 1.7;
+  text-align: left;
+
+}
+.about-subtitle{
+  text-align: left;
+  padding: 7% 0 5%;
+}
+
+/* Testimonials */
+#testimonials{
+  background-color:#ffd3b4;
+}
+
+.testimonial-image{
+  height:200px;
+  width:200px;
+  border-radius: 100%;
+}
+
+.testimonial-text{
+  color:  #f21170;
+  padding: 5% 0;
+  line-height: 1.5;
+}
+
+.carousel-item{
+  padding: 5% 15%;
+}
+
+em{
+  padding: 3%;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+#contact{
+  background-color: #ffaaa7;
+}
+
+.contact-button{
+  width:200px;
+  margin: 1% 0 5%;
+}
+
+.contact-text{
+  padding: 7% 0 5%;
+}
+
+/* footer */
+.foot{
+  padding: 10px;
+}
+#footer{
+  padding: 2% 0 0;
+  background-color:#ffd3b4;
+}
+
+@media (max-width:992px) {
+  .title-text{
+    text-align: center;
+  }
+  .about-text{
+    text-align: center;
+  }
+  .about-subtitle{
+    text-align: center;
+  }
+  .img3{
+    margin-top:20%;
+  }
+  .img2{
+    margin-top:7%;
+  }
+}
